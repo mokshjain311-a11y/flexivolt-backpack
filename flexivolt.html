@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SolarX Multipurpose Backpack</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f7f7f7;
+      color: #333;
+    }
+    header {
+      background: #1a1a1a;
+      color: white;
+      padding: 20px 50px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 1.5rem;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .hero {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      background: white;
+      padding: 50px;
+    }
+    .hero img {
+      max-width: 400px;
+      border-radius: 10px;
+      margin: 20px;
+    }
+    .hero-text {
+      max-width: 500px;
+      margin: 20px;
+    }
+    .hero-text h2 {
+      font-size: 2rem;
+      margin-bottom: 10px;
+    }
+    .hero-text p {
+      font-size: 1rem;
+      line-height: 1.6;
+    }
+    .modes {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 40px 50px;
+    }
+    .mode {
+      background: white;
+      border-radius: 10px;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+    }
+    .mode img {
+      max-width: 100px;
+      margin-bottom: 15px;
+    }
+    .mode h3 {
+      margin: 10px 0;
+    }
+    .reviews {
+      background: white;
+      padding: 40px 50px;
+    }
+    .reviews h2 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    .review {
+      border-bottom: 1px solid #ddd;
+      padding: 15px 0;
+    }
+    .review:last-child {
+      border-bottom: none;
+    }
+    .stars {
+      color: #f39c12;
+      font-size: 1.2rem;
+    }
+    .reviewer {
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+    .cta {
+      text-align: center;
+      padding: 50px;
+      background: #1a1a1a;
+      color: white;
+    }
+    .cta button {
+      padding: 15px 30px;
+      font-size: 1rem;
+      border: none;
+      background: #f39c12;
+      color: white;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 20px;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+      background: #333;
+      color: #bbb;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>SolarX</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Features</a>
+      <a href="#">Gallery</a>
+      <a href="#">Reviews</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <img src="https://via.placeholder.com/400x400?text=SolarX+Backpack" alt="Solar Backpack">
+    <div class="hero-text">
+      <h2>The Backpack That Powers Your Life</h2>
+      <p>
+        Meet the <strong>SolarX Multipurpose Backpack</strong> – a smart, versatile bag 
+        designed for work, gym, travel, and adventure. Equipped with 
+        <strong>solar panels</strong> to keep your devices charged, 
+        and multiple modes for every lifestyle.
+      </p>
+      <button style="padding:10px 20px; background:#f39c12; color:white; border:none; border-radius:5px; cursor:pointer;">
+        Explore Now
+      </button>
+    </div>
+  </section>
+
+  <section class="modes">
+    <div class="mode">
+      <img src="https://via.placeholder.com/100?text=Office" alt="Office Mode">
+      <h3>Office Mode</h3>
+      <p>Sleek design, laptop & file compartments for professionals on the go.</p>
+    </div>
+    <div class="mode">
+      <img src="https://via.placeholder.com/100?text=Gym" alt="Gym Mode">
+      <h3>Gym Mode</h3>
+      <p>Ventilated shoe pocket and sweat-proof lining for fitness lovers.</p>
+    </div>
+    <div class="mode">
+      <img src="https://via.placeholder.com/100?text=Trek" alt="Trekking Mode">
+      <h3>Trekking Mode</h3>
+      <p>Rugged straps, expandable design, and solar charging panels.</p>
+    </div>
+    <div class="mode">
+      <img src="https://via.placeholder.com/100?text=Student" alt="Student Mode">
+      <h3>Student Mode</h3>
+      <p>Organized compartments for books, laptops, and stationery.</p>
+    </div>
+    <div class="mode">
+      <img src="https://via.placeholder.com/100?text=Travel" alt="Travel Mode">
+      <h3>Travel Mode</h3>
+      <p>Cabin-sized expansion, anti-theft zippers, and USB charging.</p>
+    </div>
+  </section>
+
+  <!-- Reviews Section -->
+  <section class="reviews">
+    <h2>Customer Reviews</h2>
+
+    <div class="review">
+      <div class="reviewer">Rahul Sharma</div>
+      <div class="stars">★★★★★</div>
+      <p>Perfect for office and gym. I no longer carry two bags! The solar charging is a game changer.</p>
+    </div>
+
+    <div class="review">
+      <div class="reviewer">Sneha Patel</div>
+      <div class="stars">★★★★☆</div>
+      <p>Took it on a trek in Himachal – rugged, comfortable, and my phone stayed charged the entire trip.</p>
+    </div>
+
+    <div class="review">
+      <div class="reviewer">Arjun Mehta</div>
+      <div class="stars">★★★★★</div>
+      <p>As a student, this is the best investment. My books, laptop, and even powerbank all fit perfectly.</p>
+    </div>
+
+    <div class="review">
+      <div class="reviewer">Priya Singh</div>
+      <div class="stars">★★★★☆</div>
+      <p>Great as a travel bag. Anti-theft zippers feel safe. Just wish there were more colors available.</p>
+    </div>
+  </section>
+
+  <section class="cta">
+    <h2>One Bag. Endless Possibilities.</h2>
+    <p>Office. Gym. Trek. Study. Travel. Charge. <br> Your whole world, on your back.</p>
+    <button>Get Yours Today</button>
+  </section>
+
+  <footer>
+    © 2025 SolarX. This is a demo product page for viewing only.
+  </footer>
+
+</body>
+</html>
